@@ -1,0 +1,84 @@
+
+/* TYPOGRAPHY */
+
+	h1, h2 {
+		font-size: 3.04rem;
+		font-weight: 200;
+		margin-bottom: 1.2rem;
+		margin-top: 1.5rem;
+		color: #743f0a;
+	}
+		
+	h3 {
+		font-size: 1.375rem;
+	}
+	
+	h4 {
+		font-size: 1.125rem;
+	}
+	
+	h5 {
+		font-size: 1rem;
+	}
+	
+	h6 {
+		font-size: 0.875rem;
+	}
+	
+	p {
+    font-size: 1.35rem;
+    font-weight: 200;
+    line-height: 1.66;
+		margin-bottom: 1.425em;
+    margin-top: 1.2rem;
+	}
+	
+	.font-bigger {
+    font-size: 1.68rem;
+    font-weight: 200;
+		line-height: 1.88;
+		margin-bottom: 1.825em;
+	}
+	
+	.font-middle {
+		font-size: 1.58em;
+    font-weight: 200;
+		margin-bottom: 1.825rem;	
+	}
+	
+	.font-light {
+		font-weight: 300;
+	}
+	
+	.font-regular {
+		font-weight: 400;
+	}
+	
+	.font-heavy {
+		font-weight: 700;
+	}
+	
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.justify {
+	text-align: justify;
+}
+
+
+.text-active {
+	color: #783d0a;
+	padding-top: 4.2rem;
+}
