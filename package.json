@@ -1,0 +1,35 @@
+{
+  "name": "gulp-filesplit",
+  "version": "0.0.1",
+  "description": "Gulp plugin for splitting any files into multiple files by regular expressions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh@github.com:drgoshm/gulp-filesplit.git"
+  },
+  "keywords": [
+    "Gulp",
+    "gulpplugin",
+    "split",
+    "file",
+    "regular",
+    "expression"
+  ],
+  "author": "George Maymulov aka DrGosh <drgosh.m@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drgoshm/gulp-filesplit/issues"
+  },
+  "homepage": "https://github.com/drgoshm/gulp-filesplit#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
