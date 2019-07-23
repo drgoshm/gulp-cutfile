@@ -52,5 +52,5 @@ export default ({ regexp, remove } = {
     }.bind(this))
     return cb()
   }
-  this.emit('error', PluginError('gulp-filesplit', 'Streaming not supported'))
+  this.emit('error', PluginError('gulp-cutfile', 'Streaming not supported'))
 })

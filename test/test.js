@@ -6,7 +6,7 @@ import gulp from 'gulp'
 import through from 'through2'
 import strassert from 'stream-assert'
 import path from 'path'
-import filesplit, {HTML} from '../'
+import cutfile, {HTML} from '../'
 
 /* Test: no-splits.file */
 // eslint-disable-next-line no-undef
@@ -16,7 +16,7 @@ describe('gulp-filesplit', () => {
     const inputs = 'test/inputs/no-splits.file'
     gulp.src(inputs)
       .pipe(strassert.length(1))
-      .pipe(filesplit())
+      .pipe(cutfile())
       .pipe(strassert.length(1))
       .pipe(strassert.nth(0, file => {
         // eslint-disable-next-line node/no-deprecated-api
@@ -37,7 +37,7 @@ describe('gulp-filesplit', () => {
     const inputs = 'test/inputs/splitting.file'
     gulp.src(inputs)
       .pipe(strassert.length(1))
-      .pipe(filesplit({ remove: true }))
+      .pipe(cutfile({ remove: true }))
       .pipe(strassert.length(4))
       .pipe(strassert.nth(0, file => {
         const filename = 'test/expected/paragraph1.file'
