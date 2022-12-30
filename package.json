@@ -42,7 +42,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "gulp": "^4.0.2",
     "jslint": "^0.12.1",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "stream-assert": "^2.0.3"
   }
 }
